@@ -1,0 +1,420 @@
+pressure,permeability,porosity,density,type,depth
+2600,0,1.2,2.94,Amostra Lateral,5389
+2600,0,1.2,2.91,Amostra Lateral,5390
+2600,152,2.1,2.91,Amostra Lateral,5391
+2600,0,2.3,2.94,Amostra Lateral,5392
+2600,32.6,14.4,2.69,Amostra Lateral,5394
+2600,353,19.1,2.69,Amostra Lateral,5395
+2600,30.7,9.4,2.71,Amostra Lateral,5396
+2600,144,13.4,2.7,Amostra Lateral,5398
+2600,149,5.3,2.69,Amostra Lateral,5399
+2600,531,9,2.7,Amostra Lateral,5400
+2600,0,2.9,2.73,Amostra Lateral,5406
+2600,0,3.6,2.74,Amostra Lateral,5411
+2600,14.5,8.8,2.69,Amostra Lateral,5412
+2600,99,11.1,2.74,Amostra Lateral,5413
+2600,0.26,7.1,2.72,Amostra Lateral,5414
+2600,19.3,13.4,2.75,Amostra Lateral,5415
+2600,9,7.4,2.72,Amostra Lateral,5416
+2600,0,3.8,2.72,Amostra Lateral,5417
+2600,575,14.3,2.76,Amostra Lateral,5420
+2600,7.71,11.4,2.7,Amostra Lateral,5421
+2600,872,10.6,2.71,Amostra Lateral,5422
+2600,4,11.7,2.71,Amostra Lateral,5423
+2600,0,2.5,2.72,Amostra Lateral,5424
+2600,0,6.3,2.77,Amostra Lateral,5425
+2600,299,5.8,2.69,Amostra Lateral,5426
+2600,208,7.5,2.7,Amostra Lateral,5427
+2600,1.86,10,2.72,Amostra Lateral,5428
+2600,5.15,8.4,2.68,Amostra Lateral,5429
+2600,1.8,11.1,2.78,Amostra Lateral,5431
+2600,748,8.6,2.75,Amostra Lateral,5432
+2700,0,1,2.75,Amostra Lateral,5433
+2700,0,2.8,2.73,Amostra Lateral,5435
+2700,715,10.4,2.74,Amostra Lateral,5437
+2700,16,5.6,2.73,Amostra Lateral,5439
+2700,472,7.6,2.58,Amostra Lateral,5441
+2700,122,7.7,2.72,Amostra Lateral,5442
+2700,0,3.4,2.7,Amostra Lateral,5443
+2700,183,6.6,2.71,Amostra Lateral,5446
+2700,232,8.4,2.73,Amostra Lateral,5447
+2700,113,6.6,2.72,Amostra Lateral,5448
+2700,0.27,6.5,2.75,Amostra Lateral,5451
+2700,37.3,16.9,2.75,Amostra Lateral,5453
+2700,295,6.4,2.73,Amostra Lateral,5455
+2700,109,5.2,2.71,Amostra Lateral,5457
+2700,963,6.5,2.69,Amostra Lateral,5460
+2700,376,6.9,2.73,Amostra Lateral,5461
+2700,606,7.5,2.7,Amostra Lateral,5462
+2700,2.79,6.2,2.65,Amostra Lateral,5463
+2700,0.45,7.8,2.71,Amostra Lateral,5464
+2700,286,7.4,2.7,Amostra Lateral,5465
+2700,0,1.1,2.69,Amostra Lateral,5467
+2700,3.69,9.3,2.7,Amostra Lateral,5468
+2700,1.65,8.7,2.71,Amostra Lateral,5469
+2700,4.81,9.5,2.7,Amostra Lateral,5471
+2700,5.87,11.8,2.7,Amostra Lateral,5473
+2700,254,6.7,2.72,Amostra Lateral,5475
+2700,1.24,7.1,2.73,Amostra Lateral,5476
+2700,1.69,11.7,2.71,Amostra Lateral,5477
+2700,443,11.9,2.79,Amostra Lateral,5478
+2800,1.9,13.7,2.73,Amostra Lateral,5481
+2800,511,7.4,2.73,Amostra Lateral,5482
+2800,158,6.6,2.74,Amostra Lateral,5483
+2800,131,6.7,2.72,Amostra Lateral,5484
+2800,4.42,9.9,2.74,Amostra Lateral,5486
+2800,675,13,2.74,Amostra Lateral,5488
+2800,17.6,12,2.68,Amostra Lateral,5489
+2800,181,13.8,2.7,Amostra Lateral,5490
+2800,883,10.1,2.69,Amostra Lateral,5491
+2800,76,12,2.7,Amostra Lateral,5492
+2800,516,9.3,2.72,Amostra Lateral,5493
+2800,11.5,14,2.69,Amostra Lateral,5494
+2800,211,16.6,2.69,Amostra Lateral,5495
+2800,106,18,2.69,Amostra Lateral,5496
+2800,24,9,2.7,Amostra Lateral,5498
+2800,20.3,15.9,2.79,Amostra Lateral,5500
+2800,4,6.9,2.72,Amostra Lateral,5501
+2800,0,4.2,2.68,Amostra Lateral,5502
+2800,2.28,13.9,2.75,Amostra Lateral,5503
+2800,1.68,11.7,2.68,Amostra Lateral,5504
+2800,6.5,15,2.7,Amostra Lateral,5505
+2800,28.5,17.4,2.72,Amostra Lateral,5506
+2800,293,18.7,2.68,Amostra Lateral,5508
+2800,426,8.5,2.77,Amostra Lateral,5509
+2800,939,11.4,2.7,Amostra Lateral,5510
+2800,861,9.8,2.76,Amostra Lateral,5511
+2800,127,17.4,2.69,Amostra Lateral,5512
+2800,46.7,15.7,2.7,Amostra Lateral,5513
+2800,21.2,14.3,2.69,Amostra Lateral,5514
+2800,1.26,12.3,2.74,Amostra Lateral,5515
+2800,1.15,11,2.69,Amostra Lateral,5516
+2800,422,12.8,2.63,Amostra Lateral,5517
+2800,123,8.2,2.72,Amostra Lateral,5518
+2800,7.61,13.4,2.69,Amostra Lateral,5519
+2800,272,6.7,2.69,Amostra Lateral,5520
+2800,168,19.3,2.7,Amostra Lateral,5521
+2800,47.8,26.5,2.82,Amostra Lateral,5522
+2800,355,18,2.68,Amostra Lateral,5523
+2800,620,19.1,2.7,Amostra Lateral,5524
+2800,361,25.2,2.71,Amostra Lateral,5525
+2800,65.1,20.6,2.7,Amostra Lateral,5526
+2900,332,17.9,2.68,Amostra Lateral,5527
+2900,3.33,13.5,2.71,Amostra Lateral,5528
+2900,971,15.7,2.68,Amostra Lateral,5529
+2900,125,15.6,2.69,Amostra Lateral,5530
+2900,11.5,11.3,2.66,Amostra Lateral,5531
+2900,1.84,13.3,2.74,Amostra Lateral,5532
+2900,6.3,8.3,2.8,Amostra Lateral,5533
+2900,68.1,13.4,2.7,Amostra Lateral,5534
+2900,2540,19.1,2.7,Amostra Lateral,5535
+2900,27.1,14.3,2.7,Amostra Lateral,5536
+2900,0.08,8.1,2.74,Amostra Lateral,5537
+2900,124,16.3,2.7,Amostra Lateral,5538
+2900,17,12.2,2.73,Amostra Lateral,5539
+2900,33.5,14.1,2.69,Amostra Lateral,5540
+2900,4.18,13.2,2.69,Amostra Lateral,5541
+2900,290,15.4,2.68,Amostra Lateral,5542
+2900,681,16.7,2.69,Amostra Lateral,5543
+2900,106,17.7,2.71,Amostra Lateral,5544
+2900,0.09,9.1,2.72,Amostra Lateral,5545
+2900,513,10.4,2.71,Amostra Lateral,5546
+2900,0.83,11.5,2.71,Amostra Lateral,5548
+2900,9.63,14.4,2.73,Plugue,5548.05
+2900,57.5,19.4,2.74,Plugue,5548.4
+2900,35.4,19.8,2.75,Plugue,5548.45
+2900,54,18.9,2.75,Plugue,5548.65
+2900,7,4.5,2.79,Amostra Lateral,5549
+2900,108,19.2,2.73,Plugue,5549
+2900,120,16.9,2.72,Plugue,5549.3
+2900,186,19.9,2.73,Plugue,5549.35
+2900,150,18.1,2.72,Plugue,5549.6
+2900,5.06,9.8,2.82,Amostra Lateral,5550
+2900,27.4,18.1,2.74,Plugue,5550.1
+2900,38.8,18,2.74,Plugue,5550.15
+2900,49.6,17.4,2.74,Plugue,5550.35
+2900,11.1,16.1,2.74,Plugue,5550.65
+2900,5.24,15.2,2.75,Plugue,5550.85
+2900,16,13.8,2.73,Plugue,5550.95
+2900,868,20,2.71,Amostra Lateral,5551
+2900,21.2,14,2.73,Plugue,5551.25
+2900,338,18.8,2.72,Plugue,5551.55
+2900,79.2,17,2.73,Plugue,5551.85
+2900,5.29,8.6,2.7,Amostra Lateral,5552
+2900,76.3,17.2,,Plugue,5552.15
+2900,8,14.4,,Plugue,5552.25
+2900,751,11.3,2.78,Plugue,5552.45
+2900,73,18.7,2.72,Amostra Lateral,5553
+2900,137,19.1,2.73,Plugue,5553
+2900,299,20,2.71,Plugue,5553.1
+2900,489,20.6,2.72,Plugue,5553.35
+2900,131,20.3,2.72,Plugue,5553.7
+2900,48,19.5,2.73,Plugue,5553.9
+2900,40.3,19.1,2.74,Amostra Lateral,5554
+2900,54.3,20.3,2.73,Plugue,5554
+2900,17,19,2.73,Plugue,5554.35
+2900,12.2,19,2.73,Plugue,5554.65
+2900,4.9,17.6,2.74,Plugue,5554.7
+2900,5.66,17,2.73,Plugue,5554.9
+2900,421,10.7,2.76,Plugue,5555.3
+2900,0,6.2,2.72,Plugue,5555.45
+2900,3,6.5,2.71,Plugue,5555.55
+2900,9,9.2,2.72,Plugue,5555.8
+2900,2,6,2.72,Plugue,5555.95
+2900,142,20.2,2.73,Amostra Lateral,5556
+2900,0,6.2,2.75,Plugue,5556.05
+2900,6,7.5,2.72,Plugue,5556.2
+2900,3.35,16.3,2.75,Plugue,5556.6
+2900,15.7,15.1,2.73,Amostra Lateral,5557
+2900,508,15.9,2.76,Plugue,5557.2
+2900,21.9,17.1,2.71,Plugue,5557.3
+2900,35,5.4,2.73,Plugue,5557.9
+2900,0,5.3,2.77,Plugue,5558.2
+2900,1,5.6,2.72,Plugue,5558.55
+2900,4,4.8,2.72,Plugue,5558.85
+2900,44.1,19.1,2.72,Amostra Lateral,5559
+2900,3,6.8,2.71,Plugue,5559.05
+2900,73,18.8,2.73,Plugue,5559.45
+2900,17.9,22.4,2.76,Plugue,5559.7
+2900,7.67,14.8,2.72,Plugue,5559.8
+2900,3.17,16.9,2.72,Amostra Lateral,5560
+2900,12.4,19.4,2.76,Plugue,5560.1
+2900,3.65,17.5,2.77,Plugue,5560.45
+2900,0,2.9,2.75,Plugue,5560.85
+2900,633,9,2.76,Plugue,5560.9
+2900,5.91,14.4,2.76,Plugue,5561.25
+2900,18.9,19.8,2.72,Plugue,5561.45
+2900,-,-,-,Plugue,5561.75
+2900,0,2.9,2.68,Plugue,5561.8
+2900,5.65,17.2,2.74,Amostra Lateral,5562
+2900,74,8.3,2.73,Plugue,5562.15
+2900,245,11.2,2.73,Plugue,5562.55
+2900,245,8.9,2.73,Plugue,5562.65
+2900,91.6,19.3,2.73,Plugue,5563
+2900,120,16.4,2.69,Plugue,5563.25
+2900,51,3.2,2.7,Plugue,5563.6
+2900,45,4.6,2.71,Plugue,5563.85
+2900,1,4.2,2.71,Plugue,5563.95
+2900,1,3.6,2.73,Plugue,5564.25
+2900,0,2.8,2.73,Plugue,5564.4
+2900,108,4,2.73,Plugue,5564.5
+2900,15.9,12.7,2.72,Plugue,5564.8
+2900,862,5.4,2.72,Plugue,5565.2
+2900,1.02,14.4,2.73,Plugue,5565.45
+2900,11,14.3,2.75,Plugue,5565.55
+2900,7.04,17.4,2.77,Plugue,5565.75
+2900,1.34,11.9,2.75,Amostra Lateral,5566
+2900,952,11.7,2.72,Amostra Lateral,5568
+2900,8.07,7.7,2.63,Amostra Lateral,5569
+2900,28.4,14.3,2.74,Amostra Lateral,5571
+2900,191,20.4,2.72,Amostra Lateral,5572
+3000,13,8.8,2.64,Amostra Lateral,5573
+3000,2,4.9,2.66,Amostra Lateral,5574
+3000,857,30,2.69,Amostra Lateral,5575
+3000,232,23.6,2.71,Amostra Lateral,5576
+3000,53.3,18.3,2.72,Amostra Lateral,5577
+3000,77.3,22.9,2.7,Amostra Lateral,5578
+3000,4.69,15.9,2.75,Amostra Lateral,5579
+3000,886,6.8,2.69,Amostra Lateral,5580
+3000,14.7,17.3,2.81,Amostra Lateral,5581
+3000,46.4,19.5,2.7,Amostra Lateral,5582
+3000,27.7,21.1,2.72,Amostra Lateral,5583
+3000,83.4,19.8,2.71,Amostra Lateral,5584
+3000,15.8,21.7,2.76,Amostra Lateral,5585
+3000,9.21,16.2,2.71,Amostra Lateral,5586
+3000,85.9,18.4,2.7,Amostra Lateral,5587
+3000,48.6,20,2.69,Amostra Lateral,5588
+3000,0.2,12.9,2.71,Amostra Lateral,5589
+3000,37.1,18.3,2.7,Amostra Lateral,5590
+3000,33,17.6,2.7,Amostra Lateral,5591
+3000,75.2,14.8,2.7,Amostra Lateral,5593
+3000,64,10.2,2.69,Amostra Lateral,5594
+3000,134,10,2.68,Amostra Lateral,5595
+3000,80.7,18.1,2.7,Amostra Lateral,5596
+3000,23.7,14.7,2.69,Amostra Lateral,5598
+3000,35,13,2.73,Amostra Lateral,5601
+3000,54.4,13.6,2.7,Amostra Lateral,5602
+3000,96.9,18.2,2.7,Amostra Lateral,5605
+3000,160,15.1,2.7,Amostra Lateral,5606
+3000,702,14.5,2.74,Amostra Lateral,5608
+3000,59.2,13.9,2.72,Amostra Lateral,5609
+3000,35.1,14.1,2.71,Amostra Lateral,5610
+3000,203,8.2,2.72,Amostra Lateral,5611
+3000,603,16.6,2.7,Amostra Lateral,5612
+3000,5.21,10.2,2.71,Amostra Lateral,5613
+3000,67.8,16.4,2.72,Plugue,5613.05
+3000,131,11.4,2.72,Plugue,5613.35
+3000,908,15.9,2.72,Plugue,5613.6
+3000,644,15.3,2.72,Plugue,5613.85
+3000,462,16.9,2.73,Plugue,5613.95
+3000,342,6.6,2.71,Amostra Lateral,5614
+3000,2580,18.2,2.73,Plugue,5614.15
+3000,447,19.6,2.72,Plugue,5614.5
+3000,127,15.7,2.73,Plugue,5614.65
+3000,129,15.4,2.72,Plugue,5614.85
+3000,9,8.9,2.69,Amostra Lateral,5615
+3000,889,16.9,2.74,Plugue,5615.2
+3000,3.4,14.1,2.72,Plugue,5615.5
+3000,1.31,12.5,2.72,Plugue,5615.6
+3000,28.6,16.3,2.74,Plugue,5615.85
+3000,26.2,18.1,2.72,Amostra Lateral,5616
+3000,1680,14.8,2.72,Plugue,5616.1
+3000,128.7,13.1,2.76,Plugue,5616.2
+3000,33.2,18.8,2.7,Plugue,5616.4
+3000,57.78,12.3,2.73,Plugue,5616.7
+3000,92.6,17.1,2.72,Amostra Lateral,5617
+3000,2380,16.8,2.71,Plugue,5617
+3000,805,13.7,2.71,Plugue,5617.25
+3000,6.22,13.4,2.72,Plugue,5617.35
+3000,1200,19.6,2.71,Plugue,5617.85
+3000,300,16.2,2.7,Amostra Lateral,5618
+3000,210,15.7,2.7,Plugue,5618.2
+3000,115,19,2.69,Plugue,5618.3
+3000,141,14,2.73,Plugue,5618.5
+3000,1580,23.8,2.7,Plugue,5618.8
+3000,422,16,2.71,Amostra Lateral,5619
+3000,98.35,17.8,2.72,Plugue,5619.1
+3000,28.9,21.1,2.72,Plugue,5619.2
+3000,21.9,10.8,2.71,Plugue,5619.55
+3000,166,17.2,2.71,Plugue,5619.85
+3100,170,11.4,2.7,Amostra Lateral,5620
+3000,1770,21.9,2.72,Plugue,5620.05
+3000,2650,22.1,2.72,Plugue,5620.15
+3000,10.6,13.8,2.72,Plugue,5620.45
+3000,676,18.2,2.71,Plugue,5620.65
+3000,1.02,9.4,2.71,Plugue,5620.75
+3000,3090,25.3,2.7,Plugue,5621.05
+3000,842,20.5,2.71,Plugue,5621.35
+3000,647,18.8,2.7,Plugue,5621.65
+3000,2910,20.4,2.71,Plugue,5621.85
+3000,999,15.5,2.69,Plugue,5621.95
+3100,12,8.4,2.71,Amostra Lateral,5622
+3000,254,18.4,2.7,Plugue,5622.2
+3000,78.6,21.3,2.7,Plugue,5622.45
+3000,541,17.2,2.71,Plugue,5622.55
+3000,117,20,2.73,Plugue,5622.8
+3100,3.06,14,2.7,Amostra Lateral,5623
+3000,173,22.3,2.71,Plugue,5623.1
+3000,54,20.6,2.72,Plugue,5623.35
+3000,142.1,18.2,2.74,Plugue,5623.7
+3000,254,21.1,2.69,Plugue,5623.75
+3000,2990,26.3,2.72,Plugue,5624
+3000,488,15.7,2.73,Plugue,5624.3
+3000,186,15.7,2.71,Plugue,5624.55
+3000,700,15.6,2.71,Plugue,5624.65
+3000,1.52,12.1,2.72,Plugue,5624.85
+3000,50.7,14,2.72,Plugue,5624.95
+3100,272,18.5,2.72,Amostra Lateral,5625
+3000,174,17.2,2.72,Plugue,5625.25
+3000,1.94,14.6,2.71,Plugue,5625.55
+3000,24.4,16.4,2.7,Plugue,5625.8
+3000,4.3,15.1,2.7,Plugue,5625.9
+3100,25.8,16,2.71,Amostra Lateral,5626
+3000,487,16.5,2.7,Plugue,5626.15
+3000,235,20.2,2.7,Plugue,5626.4
+3000,58.7,16.6,2.7,Plugue,5626.7
+3000,39.39,19.7,2.75,Plugue,5626.9
+3000,185,17.3,2.71,Plugue,5627
+3000,410,17.9,2.7,Plugue,5627.3
+3000,369,19.4,2.7,Plugue,5627.65
+3000,573,20.6,2.7,Plugue,5627.9
+3000,62.9,17.7,2.7,Plugue,5628
+3000,279,20.5,2.7,Plugue,5628.35
+3000,536,20.8,2.7,Plugue,5628.6
+3000,284,24.6,2.68,Plugue,5628.7
+3000,197,17.4,2.7,Plugue,5628.9
+3100,2.73,18.3,2.7,Amostra Lateral,5629
+3000,454,20.8,2.71,Plugue,5629.3
+3000,181,21,2.7,Plugue,5629.5
+3000,202,17.1,2.7,Plugue,5629.6
+3000,659,18,2.71,Plugue,5629.85
+3100,244,19.6,2.7,Amostra Lateral,5630
+3100,10.3,13.3,2.69,Amostra Lateral,5631
+3100,127,21.2,2.67,Amostra Lateral,5633
+3100,8.04,17.2,2.69,Amostra Lateral,5634
+3100,1180,20.4,2.69,Amostra Lateral,5636
+3100,39.4,17,2.69,Amostra Lateral,5637
+3100,8.25,22.7,2.69,Amostra Lateral,5638
+3100,584,18.5,2.71,Amostra Lateral,5641
+3100,188,17.9,2.71,Amostra Lateral,5642
+3100,319,15.9,2.72,Amostra Lateral,5643
+3100,1.62,20.4,2.7,Amostra Lateral,5644
+3100,923,21.9,2.71,Amostra Lateral,5646
+3100,25,6.2,2.68,Amostra Lateral,5649
+3100,17.7,22.3,2.7,Amostra Lateral,5653
+3100,11,14.2,2.71,Amostra Lateral,5654
+3100,3.69,10.1,2.71,Amostra Lateral,5656
+3100,421,14.4,2.71,Amostra Lateral,5659
+3100,708,10.8,2.69,Amostra Lateral,5660
+3100,204,23,2.71,Amostra Lateral,5662
+3100,47.7,9.7,2.72,Amostra Lateral,5663
+3100,425,18.3,2.7,Amostra Lateral,5664
+3200,66.6,20.2,2.7,Amostra Lateral,5666
+3200,170,24.9,2.7,Amostra Lateral,5667
+3200,35.1,19.5,2.69,Amostra Lateral,5668
+3200,4.58,21.3,2.71,Amostra Lateral,5670
+3200,71,20.1,2.7,Amostra Lateral,5671
+3200,64.5,20.1,2.69,Amostra Lateral,5673
+3200,1.11,9.7,2.72,Amostra Lateral,5674
+3200,5.53,12.9,2.69,Amostra Lateral,5675
+3200,2.34,14,2.7,Amostra Lateral,5676
+3200,29.2,22.6,2.7,Amostra Lateral,5677
+3200,3.21,17.3,2.7,Amostra Lateral,5678
+3200,70.9,21.7,2.69,Amostra Lateral,5679
+3200,365,22.1,2.7,Amostra Lateral,5682
+3200,66.3,18.8,2.69,Amostra Lateral,5683
+3200,26.6,22.1,2.7,Amostra Lateral,5684
+3200,7.33,16.2,2.7,Amostra Lateral,5685
+3200,25.5,16.7,2.71,Amostra Lateral,5686
+3200,33.7,18.7,2.7,Amostra Lateral,5687
+3200,26.2,15.9,2.69,Amostra Lateral,5688
+3200,14.3,15.4,2.72,Amostra Lateral,5690
+3200,22.5,17.5,2.7,Amostra Lateral,5692
+3200,5.02,14.3,2.71,Amostra Lateral,5693
+3200,108,11,2.72,Amostra Lateral,5694
+3200,52,25.4,2.68,Amostra Lateral,5695
+3200,0.21,13,2.69,Amostra Lateral,5696
+3200,22,5.5,2.67,Amostra Lateral,5700
+3200,16,4.4,2.66,Amostra Lateral,5701
+3200,11,6.6,2.68,Amostra Lateral,5702
+3200,148,8.9,2.68,Amostra Lateral,5704
+3200,40.7,21,2.68,Amostra Lateral,5705
+3200,580,21.2,2.68,Amostra Lateral,5706
+3200,3.08,15.3,2.7,Amostra Lateral,5707
+3200,2.49,18.3,2.71,Amostra Lateral,5708
+3200,10.9,20.5,2.69,Amostra Lateral,5709
+3200,25.7,19.9,2.67,Amostra Lateral,5710
+3200,320,24.5,2.68,Amostra Lateral,5711
+3300,17.3,19,2.68,Amostra Lateral,5713
+3300,7.46,20.8,2.72,Amostra Lateral,5714
+3300,18.1,19.1,2.72,Amostra Lateral,5715
+3300,68,11.8,2.69,Amostra Lateral,5721
+3300,1.67,18,2.68,Amostra Lateral,5729.5
+3300,0,10.6,2.75,Amostra Lateral,5731.8
+3300,141,23.2,2.7,Amostra Lateral,5736
+3300,6.95,20.1,2.72,Amostra Lateral,5757
+3400,0.46,15.5,2.71,Amostra Lateral,5779
+3400,22,16.9,2.7,Amostra Lateral,5793.5
+3400,249,9.6,2.69,Amostra Lateral,5800
+3500,22.7,16.2,2.71,Amostra Lateral,5808
+3500,13,4.9,2.69,Amostra Lateral,5826
+3500,698,11.7,2.71,Amostra Lateral,5842.3
+3500,10.3,18.6,2.7,Amostra Lateral,5851
+3600,92.5,15.7,2.67,Amostra Lateral,5856.3
+3600,8,5.1,2.67,Amostra Lateral,5862.5
+3600,0,4.7,2.68,Amostra Lateral,5865
+3600,0,2,2.66,Amostra Lateral,5870.7
+3600,1,3.6,2.67,Amostra Lateral,5888.7
+3600,721,13.3,2.7,Amostra Lateral,5894
+3700,704,11.1,2.7,Amostra Lateral,5905
+3700,161,12.5,2.7,Amostra Lateral,5910
+3700,7,4.6,2.67,Amostra Lateral,5917.5
+3700,1,2.2,2.67,Amostra Lateral,5929.5
+3700,7,0.8,2.67,Amostra Lateral,5938
+3800,576,10.1,2.69,Amostra Lateral,5952.5
+3800,5,3.4,2.67,Amostra Lateral,5964.5
+3800,509,11.2,2.68,Amostra Lateral,5989
+3900,57,10.2,2.69,Amostra Lateral,5992.8
+3900,76,9.5,2.67,Amostra Lateral,6007
+3900,62,15,2.68,Amostra Lateral,6011.3
+3900,0,1,2.67,Amostra Lateral,6024

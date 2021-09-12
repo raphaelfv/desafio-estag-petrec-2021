@@ -29,4 +29,8 @@ O arquivo CSV para desenvolver a tarefa do desafio estará disponível no reposi
 | 2600     | 0            | 1.2      | 2.91    | Amostra Lateral | 5390  |
 | 2600     | 152          | 2.1      | 2.91    | Amostra Lateral | 5391  |
 
+Mais informações sobre Django:
+* [https://docs.djangoproject.com/en/3.2/](Documentação)
+* [https://tutorial.djangogirls.org/pt/](Exemplo didático de uso)
+
 Boa sorte!

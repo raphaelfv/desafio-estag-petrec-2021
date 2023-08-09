@@ -1,0 +1,48 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+    <title>WEB PAGE TITLE</title>
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>CSV data charts</h1>
+    </div>
+      
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <a href="http://localhost:8000/home">
+                    <h3 class="text-center">Home</h3>
+                </a>
+            </div>
+            <div class="col-sm-3 bg-info">
+                <a href="http://localhost:8000/data">
+                    <h3 class="text-center">Data</h3>
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="http://localhost:8000/graph">
+                    <h3 class="text-center">Graph</h3>
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="http://localhost:8000/feedback">
+                    <h3 class="text-center">Feedback</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+</html>

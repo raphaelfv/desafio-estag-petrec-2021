@@ -1,120 +1,83 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <title>WEB PAGE TITLE</title>
-</head>
-<body>
-    <div class="jumbotron text-center">
-        <h1>CSV data charts</h1>
-    </div>
-      
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <a href="http://localhost:8000/home">
-                    <h3 class="text-center">Home</h3>
-                </a>
-            </div>
-            <div class="col-sm-3">
-                <a href="http://localhost:8000/data">
-                    <h3 class="text-center">Data</h3>
-                </a>
-            </div>
-            <div class="col-sm-3 bg-info">
-                <a href="http://localhost:8000/graph">
-                    <h3 class="text-center">Graph</h3>
-                </a>
-            </div>
-            <div class="col-sm-3">
-                <a href="http://localhost:8000/feedback">
-                    <h3 class="text-center">Feedback</h3>
-                </a>
-            </div>
-        </div>
+{% extends 'base.html' %}
 
-        {% if csv_columns %}
-        <!-- Selectors for x and y axes -->
-        <div class="form-group">
-            <label for="xAxis">Select X-Axis Column:</label>
-            <select id="xAxis" class="form-control">
-                {% for column in csv_columns %}
-                    <option value="{{ column }}">{{ column }}</option>
-                {% endfor %}
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="yAxis">Select Y-Axis Column:</label>
-            <select id="yAxis" class="form-control">
-                {% for column in csv_columns %}
-                    <option value="{{ column }}">{{ column }}</option>
-                {% endfor %}
-            </select>
-        </div>
-        
-        <!-- Display the scatter plot -->
-        <div id="scatterPlot"></div>
-    </div>
-        
-        <script>
-            var csvData = {% autoescape off %}{{ csv_data_json }}{% endautoescape %};
+{% block title %}CSV data charts Graph{% endblock %}
 
-            var margin = { top: 20, right: 20, bottom: 30, left: 40 },
-                width = 600 - margin.left - margin.right,
-                height = 400 - margin.top - margin.bottom;
+{% block content%}        
+{% if csv_columns %}
+<!-- Selectors for x and y axes -->
+<div class="form-group">
+    <label for="xAxis">Select X-Axis Column:</label>
+    <select id="xAxis" class="form-control">
+        {% for column in csv_columns %}
+            <option value="{{ column }}">{{ column }}</option>
+        {% endfor %}
+    </select>
+</div>
+<div class="form-group">
+    <label for="yAxis">Select Y-Axis Column:</label>
+    <select id="yAxis" class="form-control">
+        {% for column in csv_columns %}
+            <option value="{{ column }}">{{ column }}</option>
+        {% endfor %}
+    </select>
+</div>
 
-            var svg = d3.select("#scatterPlot")
-                .append("svg")
-                .attr("width", width + margin.left + margin.right)
-                .attr("height", height + margin.top + margin.bottom)
-                .append("g")
-                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-            
-            // Function to update scatter plot
-            function updatePlot() {
-                var xAxisValue = document.getElementById("xAxis").value;
-                var yAxisValue = document.getElementById("yAxis").value;
+<!-- Display the scatter plot -->
+<div id="scatterPlot"></div>
+</div>
 
-                var x = d3.scaleLinear().range([0, width]);
-                var y = d3.scaleLinear().range([height, 0]);
+<script>
+    var csvData = {% autoescape off %}{{ csv_data_json }}{% endautoescape %};
 
-                x.domain(d3.extent(csvData, function (d) { return parseFloat(d[xAxisValue]); })).nice();
-                y.domain(d3.extent(csvData, function (d) { return parseFloat(d[yAxisValue]); })).nice();
+    var margin = { top: 20, right: 20, bottom: 30, left: 40 },
+        width = 600 - margin.left - margin.right,
+        height = 400 - margin.top - margin.bottom;
 
-                svg.selectAll("*").remove(); // Clear previous plot
+    var svg = d3.select("#scatterPlot")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    
+    // Function to update scatter plot
+    function updatePlot() {
+        var xAxisValue = document.getElementById("xAxis").value;
+        var yAxisValue = document.getElementById("yAxis").value;
 
-                svg.selectAll(".dot")
-                    .data(csvData)
-                    .enter().append("circle")
-                    .attr("class", "dot")
-                    .attr("r", 3.5)
-                    .attr("cx", function (d) { return x(parseFloat(d[xAxisValue])); })
-                    .attr("cy", function (d) { return y(parseFloat(d[yAxisValue])); });
+        var x = d3.scaleLinear().range([0, width]);
+        var y = d3.scaleLinear().range([height, 0]);
 
-                svg.append("g")
-                    .attr("transform", "translate(0," + height + ")")
-                    .call(d3.axisBottom(x));
+        x.domain(d3.extent(csvData, function (d) { return parseFloat(d[xAxisValue]); })).nice();
+        y.domain(d3.extent(csvData, function (d) { return parseFloat(d[yAxisValue]); })).nice();
 
-                svg.append("g")
-                    .call(d3.axisLeft(y));
-            }
-            
-            // Initial plot update
-            updatePlot();
+        svg.selectAll("*").remove(); // Clear previous plot
 
-            // Update plot on selector change
-            d3.select("#xAxis").on("change", updatePlot);
-            d3.select("#yAxis").on("change", updatePlot);
+        svg.selectAll(".dot")
+            .data(csvData)
+            .enter().append("circle")
+            .attr("class", "dot")
+            .attr("r", 3.5)
+            .attr("cx", function (d) { return x(parseFloat(d[xAxisValue])); })
+            .attr("cy", function (d) { return y(parseFloat(d[yAxisValue])); });
 
-        </script>
-    {% else %}
-        <p>Go to the <a href="{% url 'data' %}">Data page</a> and upload a file.</p>
-    {% endif %}
+        svg.append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x));
 
+        svg.append("g")
+            .call(d3.axisLeft(y));
+    }
+    
+    // Initial plot update
+    updatePlot();
 
-</body>
-</html>
+    // Update plot on selector change
+    d3.select("#xAxis").on("change", updatePlot);
+    d3.select("#yAxis").on("change", updatePlot);
+
+</script>
+{% else %}
+<p>Go to the <a href="{% url 'data' %}">Data page</a> and upload a file.</p>
+{% endif %}
+{% endblock content %}

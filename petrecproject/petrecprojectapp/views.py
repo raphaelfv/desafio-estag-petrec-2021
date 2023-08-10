@@ -7,9 +7,11 @@ import json
 # Create your views here.
 
 def home(request):
-    return render(request, 'petrecprojectapp/home.html')
+    homeCondition = True
+    return render(request, 'petrecprojectapp/home.html', {'homeCondition': homeCondition})
 
 def data(request):
+    dataCondition = True
     if request.method == 'POST':
         form = CSVUploadForm(request.POST, request.FILES)
         if form.is_valid():
@@ -22,9 +24,10 @@ def data(request):
             return redirect('graph')
     else:
         form = CSVUploadForm()
-    return render(request, 'petrecprojectapp/data.html', {'form': form})
+    return render(request, 'petrecprojectapp/data.html', {'form': form, 'dataCondition': dataCondition})
 
 def graph(request):
+    graphCondition = True
     uploaded_csv = request.session.get('uploaded_csv_file')
 
     csv_data = []
@@ -39,9 +42,10 @@ def graph(request):
 
     csv_columns = csv_data[0].keys() if csv_data else []
 
-    return render(request, 'petrecprojectapp/graph.html', {'csv_data_json': csv_data_json, 'csv_columns': csv_columns})
+    return render(request, 'petrecprojectapp/graph.html', {'csv_data_json': csv_data_json, 'csv_columns': csv_columns, 'graphCondition': graphCondition})
 
 def feedback(request):
+    feedbackCondition = True
     feedback_sent = False  # Initialize to False
 
     if request.method == 'POST':
@@ -53,4 +57,4 @@ def feedback(request):
     else:
         form = FeedbackForm()
 
-    return render(request, 'petrecprojectapp/feedback.html', {'form': form, 'feedback_sent': feedback_sent})
+    return render(request, 'petrecprojectapp/feedback.html', {'form': form, 'feedback_sent': feedback_sent, 'feedbackCondition': feedbackCondition})

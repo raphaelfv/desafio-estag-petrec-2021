@@ -38,12 +38,15 @@ def graph(request):
     return render(request, 'petrecprojectapp/graph.html', {'csv_data': csv_data})
 
 def feedback(request):
+    feedback_sent = False  # Initialize to False
+
     if request.method == 'POST':
         form = FeedbackForm(request.POST)
         if form.is_valid():
             form.save()  # Save the feedback to the database
             form = FeedbackForm()  # Create a new form
+            feedback_sent = True  # Set to True when feedback is sent
     else:
         form = FeedbackForm()
 
-    return render(request, 'petrecprojectapp/feedback.html', {'form': form})
+    return render(request, 'petrecprojectapp/feedback.html', {'form': form, 'feedback_sent': feedback_sent})

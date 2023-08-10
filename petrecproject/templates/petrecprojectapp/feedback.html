@@ -43,7 +43,13 @@
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit">Send</button>
+        <button type="submit" class="btn btn-primary">Send</button>
     </form>
+    
+    {% if feedback_sent %}
+        <div class="alert alert-success mt-3">
+            Feedback sent!
+        </div>
+    {% endif %}
 </body>
 </html>

@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from .forms import CSVUploadForm
 import csv
+from .forms import FeedbackForm
 
 # Create your views here.
 
@@ -23,21 +24,26 @@ def data(request):
     return render(request, 'petrecprojectapp/data.html', {'form': form})
 
 def graph(request):
-    # Retrieve the CSV file from the session
     uploaded_csv = request.session.get('uploaded_csv_file')
 
-    # Parse CSV data and pass it to the template
     csv_data = []
     if uploaded_csv:
         reader = csv.reader(uploaded_csv.splitlines())
-        for row in reader:
-            csv_data.append(row)
+        csv_data = [row for row in reader]
 
-    # Clear the session data to clean up
     if 'uploaded_csv_file' in request.session:
         del request.session['uploaded_csv_file']
 
+    # Pass the CSV data as JSON and available headers to the template
     return render(request, 'petrecprojectapp/graph.html', {'csv_data': csv_data})
 
 def feedback(request):
-    return render(request, 'petrecprojectapp/feedback.html')
+    if request.method == 'POST':
+        form = FeedbackForm(request.POST)
+        if form.is_valid():
+            form.save()  # Save the feedback to the database
+            form = FeedbackForm()  # Create a new form
+    else:
+        form = FeedbackForm()
+
+    return render(request, 'petrecprojectapp/feedback.html', {'form': form})

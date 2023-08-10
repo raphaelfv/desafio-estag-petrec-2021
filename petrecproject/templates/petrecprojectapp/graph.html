@@ -36,7 +36,7 @@
                 </a>
             </div>
         </div>
-        <div>
+        {% if csv_data %}
             <table border="1">
                 {% for row in csv_data %}
                     <tr>
@@ -46,7 +46,8 @@
                     </tr>
                 {% endfor %}
             </table>
-        </div>
-    </div>
+        {% else %}
+            <p>Go to the <a href="{% url 'data' %}">Data page</a> and upload a file.</p>
+        {% endif %}
 </body>
 </html>

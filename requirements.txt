@@ -1,0 +1,4 @@
+Django 4.2.4
+Python (used) 3.8.10
+Bootstrap 5.0.2 (CDN) / also tried with Bootstrap 4.5.2 (CDN) which requires jquery 3.5.1 (CDN) and popper 2.9.2 (CDN)
+d3.js v7 (CDN)

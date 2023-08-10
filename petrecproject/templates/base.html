@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <title>{% block title %}CSV data charts{% endblock title %}</title>
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>CSV data charts</h1>
+    </div>
+      
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 {% if homeCondition %}bg-info{% endif %}">
+                <a href="http://localhost:8000/home">
+                    <h3 class="text-center">Home</h3>
+                </a>
+            </div>
+            <div class="col-sm-3 {% if dataCondition %}bg-info{% endif %}">
+                <a href="http://localhost:8000/data">
+                    <h3 class="text-center">Data</h3>
+                </a>
+            </div>
+            <div class="col-sm-3 {% if graphCondition %}bg-info{% endif %}">
+                <a href="http://localhost:8000/graph">
+                    <h3 class="text-center">Graph</h3>
+                </a>
+            </div>
+            <div class="col-sm-3 {% if feedbackCondition %}bg-info{% endif %}">
+                <a href="http://localhost:8000/feedback">
+                    <h3 class="text-center">Feedback</h3>
+                </a>
+            </div>
+        </div>
+        {% block content%}Some content{% endblock content %}
+    </div>
+</body>
+</html>
